@@ -1,0 +1,29 @@
+{
+  "name": "wording",
+  "version": "0.1.0",
+  "description": "A word library for npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacegeek224/wording.git"
+  },
+  "keywords": [
+    "word",
+    "wording",
+    "util",
+    "lib"
+  ],
+  "author": "spacegeek224",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spacegeek224/wording/issues"
+  },
+  "homepage": "https://github.com/spacegeek224/wording#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
