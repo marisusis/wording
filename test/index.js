@@ -11,8 +11,14 @@ describe('#isWord', function() {
 
 });
 
-describe('#howManyWords', function() {
+// describe('#howManyWords', function() {
+//   it('returns number of words',function() {
+//     wording.word.howManyWords('hello world').should.equal(2);
+//   });
+// });
+
+describe('#numWords', function() {
   it('returns number of words',function() {
-    wording.word.howManyWords('hello world').should.equal(2);
+    wording.word.numWords('hello world').should.equal(2);
   });
 });

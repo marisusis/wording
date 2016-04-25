@@ -4,7 +4,15 @@ module.exports.word = {
   isWord: function(s) {
     return (String(s).match(/(\w+)\S/g).length == 1);
   },
-  howManyWords: function(s) {
-    return String(s).match(/(\w+)\S/g).length;
+//   howManyWords: function(s) {
+//     return String(s).match(/(\w+)\S/g).length;
+//   },
+  numWords: function(s) {
+    return String(s).split(/\s/g).length;
+  },
+  toVerb: function(s) {
+    if (s) {
+      return s;
+    }
   }
 }
