@@ -16,7 +16,10 @@ module.exports.word = {
       case 'n':
       case 't':
         return s+end+'ing';
-        break;
+        break;h
+        case 'e':
+          return s.substr(0,s.length-2)+'ing';
+          break;
       case 'y':
         return s+'ing';
         break; 
