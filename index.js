@@ -18,7 +18,7 @@ module.exports.word = {
         return s+end+'ing';
         break;h
         case 'e':
-          return s.substr(0,s.length-2)+'ing';
+          return s.substr(0,s.length-1)+'ing';
           break;
       case 'y':
         return s+'ing';
