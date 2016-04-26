@@ -11,8 +11,8 @@ module.exports.word = {
     return String(s).split(/\s/g).length;
   },
   toVerb: function(s) {
-    if (s) {
-      return s;
+    if (s.charAt(s.length-1)=='r') {
+      return s+'s';
     }
   }
 }
