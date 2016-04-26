@@ -20,6 +20,9 @@ module.exports.word = {
       case 'y':
         return s+'ing';
         break; 
+        default:
+        return s+'ing';
+        break; 
     }
   }
 }
